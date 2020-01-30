@@ -81,13 +81,13 @@
 
 <meta name="description" content="高度自律即绝对自由">
 <meta property="og:type" content="website">
-<meta property="og:title" content="Overlord1998">
+<meta property="og:title" content="Overlord">
 <meta property="og:url" content="http://yoursite.com/archives/2019/10/index.html">
-<meta property="og:site_name" content="Overlord1998">
+<meta property="og:site_name" content="Overlord">
 <meta property="og:description" content="高度自律即绝对自由">
 <meta property="og:locale" content="zh-Hans">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Overlord1998">
+<meta name="twitter:title" content="Overlord">
 <meta name="twitter:description" content="高度自律即绝对自由">
 
 
@@ -133,7 +133,7 @@
 
 
 
-  <title>归档 | Overlord1998</title>
+  <title>归档 | Overlord</title>
   
 
 
@@ -163,12 +163,12 @@
     <div class="custom-logo-site-title">
       <a href="/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">Overlord1998</span>
+        <span class="site-title">Overlord</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
       
-        <p class="site-subtitle">welcome to my world</p>
+        <p class="site-subtitle">Welcome to my world</p>
       
   </div>
 
@@ -463,7 +463,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2020</span>
   <span class="with-love">
     <i class="fa fa-user"></i>
   </span>
@@ -627,6 +627,28 @@
 
 
 
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item=>{
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'IANIzzEAYFTAltiohuohCOWF-gzGzoHsz',
+        appKey: 'We0io2ofUULGGaQP7ILTc0ui',
+        placeholder: 'Just go go',
+        avatar:'mm',
+        guest_info:guest,
+        pageSize:'10' || 10,
+    });
+  </script>
 
 
 
