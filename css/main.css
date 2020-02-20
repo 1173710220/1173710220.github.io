@@ -1832,7 +1832,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ff60f0;
+  background: #f9ff8b;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -3012,7 +3012,7 @@ pre .javascript .function {
     color: #eee;
   }
   .main-inner {
-    background: #222;
+    background: #4d4d4c;
     opacity: 0.9;
   }
   .posts-expand .post-title-link::before {
