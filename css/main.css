@@ -1832,7 +1832,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #6208ff;
+  background: #ff60f0;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2763,7 +2763,7 @@ pre .javascript .function {
 .site-meta {
   padding: 20px 0;
   color: #fff;
-  background: $blue-dodger;
+  background: $black-dodger;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .site-meta {
@@ -3012,7 +3012,7 @@ pre .javascript .function {
     color: #eee;
   }
   .main-inner {
-    background: #fff;
+    background: #222;
     opacity: 0.9;
   }
   .posts-expand .post-title-link::before {
