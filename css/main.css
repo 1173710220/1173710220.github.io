@@ -1099,7 +1099,7 @@ pre .javascript .function {
   bottom: 30px;
 }
 .header {
-  background: transparent;
+  background: #fff0f5;
 }
 .header-inner {
   position: relative;
@@ -1832,7 +1832,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffc90e;
+  background: #b50d8f;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2762,8 +2762,8 @@ pre .javascript .function {
 }
 .site-meta {
   padding: 20px 0;
-  color: #fff;
-  background: $black-dodger;
+  color: #000;
+  background: #ffe4e1;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .site-meta {
@@ -3000,6 +3000,9 @@ pre .javascript .function {
     text-align: justify;
   }
 }
+.site-meta {
+  background: #fff0f5;
+}
 @media screen and (min-width: 1200px) {
   body {
     background-image: url("/images/12.jpg");
@@ -3009,7 +3012,7 @@ pre .javascript .function {
     background-size: cover;
   }
   #footer a {
-    color: #eee;
+    color: #fff0f5;
   }
   .main-inner {
     background: #fff;
@@ -3039,6 +3042,7 @@ pre .javascript .function {
   font-size: 24px;
   font-weight: 400;
   font-family: 'Damion', "PingFang SC", "Microsoft YaHei", sans-serif;
+  color: #000;
 }
 #heart {
   animation: heartAnimate 1.33s ease-in-out infinite;
